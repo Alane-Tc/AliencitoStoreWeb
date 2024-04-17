@@ -5,18 +5,18 @@
     height: 100%;
 }
 
-#index {
-    background-image: url('https://placehold.co/600x200');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    max-width: auto;
-    height: 60.9vh;
-    font-size: 20px;
-    color: white;
-    min-height: 500px;
-}
+// #index {
+//     background-image: url('https://placehold.co/600x200');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: top;
+//     background-attachment: fixed;
+//     max-width: auto;
+//     height: 60.9vh;
+//     font-size: 20px;
+//     color: white;
+//     min-height: 500px;
+// }
 
 #logo-img {
     width: 50px;
@@ -30,10 +30,9 @@
 
 .offcanvas-start {
     width: 210px;
-    background: #315659;
+    background: #5F0000;
 
 }
-
 
 #foto-perfil {
     border-radius: 50%;
@@ -56,7 +55,7 @@
 }
 
 #navbar-color {
-    background: #315659 !important;
+    background: #5F0000 !important;
     padding: 20px;
 }
 
@@ -67,7 +66,7 @@
     }
 
     a:hover {
-        color: #253031;
+        color: rgb(255, 199, 0);
         animation: headShake;
         animation-duration: 2s;
     }
